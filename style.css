@@ -1,0 +1,78 @@
+#jumbotron {
+padding-top: 6rem;
+background-color: #6b756bfb;
+}
+
+#about {
+    padding-top: 6rem;
+}
+
+button.btn {
+    background: rgb(3, 110, 182);
+    }
+
+    #form {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 680px;
+        }
+
+        #gallery > div:nth-child(1) > h1:nth-child(1) {
+            padding-top: 50px;
+            }
+
+            body > svg:nth-child(4) {
+                background-color: white;
+                margin-top: -300px;
+                }
+
+                #gallery {
+                    background-color: #6b756bfb;
+                    }
+
+                    #gallery > div:nth-child(1) {
+                        max-width: 4000px !important;
+                        padding-right: 0px;
+                        padding-left: 0px;
+                        margin-top: -20px;
+                        }
+
+                        div.row:nth-child(2) {
+                            max-width: 1140px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            }
+
+                            body > svg:nth-child(4) > path:nth-child(1) {
+                                background-color: #6b756bfb;
+                                }
+
+    body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/nike.jpg");
+
+  /* Set a specific height */
+  height: 130%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+top: 50%;
+  left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+                           
